@@ -1,0 +1,6 @@
+---
+name: st2-ansible-aliases.status
+action_ref: st2-ansible-aliases.status
+description: Show status for hosts (ansible ping module)
+formats:
+- "status {{hosts}}"
