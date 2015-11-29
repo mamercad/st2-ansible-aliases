@@ -1,5 +1,5 @@
 ---
-name: server_status
+name: st2-ansible-aliases.server_status
 description: Show server status by running ansible ping ad-hoc command
 runner_type: local-shell-cmd
 entry_point: ""
