@@ -12,7 +12,7 @@ parameters:
     default: true
   kwarg_op:
     immutable: true
-    cmd:
+  cmd:
     description: "Command to run"
     type: string
     immutable: true
