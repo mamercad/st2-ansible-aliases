@@ -1,0 +1,6 @@
+---
+name: update_ubuntu
+action_ref: st2-ansible-aliases.update_ubuntu
+description: Updates all installed packages (Ubuntu)
+formats:
+  - "update_ubuntu {{ hosts }}"
