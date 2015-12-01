@@ -9,7 +9,7 @@ parameters:
     description: "Run command with sudo"
     type: boolean
     immutable: true
-    default: false
+    default: true
   kwarg_op:
     immutable: true
   cmd:
