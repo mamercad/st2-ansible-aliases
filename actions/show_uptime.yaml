@@ -21,4 +21,4 @@ parameters:
     description: "Hosts to operate on"
     type: string
     required: false
-    defaut: 'all'
+    default: 'all'
