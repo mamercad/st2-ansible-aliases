@@ -1,8 +1,6 @@
-### Place information about your pack version here.
 ---
 name: st2-ansible-aliases
 description: Ansible aliases for ChatOps
 version: 0.1.0
 author: Mark Mercado
-email: mamercad@gmail.com
-
+email: mamercad@umflint.edu
