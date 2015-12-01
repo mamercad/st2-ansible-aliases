@@ -1,0 +1,14 @@
+---
+name: show_inventory
+description: Show server ansible inventory /etc/ansible/hosts
+runner_type: local-shell-cmd
+entry_point: ""
+enabled: true
+parameters:
+  kwarg_op:
+    immutable: true
+  cmd:
+    description: "Command to run"
+    type: string
+    immutable: true
+    default: "cat /etc/ansible/hosts"
