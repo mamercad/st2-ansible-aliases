@@ -1,6 +1,6 @@
 ---
 name: show_uptime
 action_ref: st2-ansible-aliases.show_uptime
-description: Shows the uptime up host(s)
+description: Shows the uptime up host(s) with Ansible
 formats:
   - "show_uptime {{ hosts }}"

@@ -1,14 +1,15 @@
 ---
 name: show_inventory
-description: Show server ansible inventory /etc/ansible/hosts
+pack: st2-ansible-aliases
+description: Show server Ansible inventory /etc/ansible/hosts
 runner_type: local-shell-cmd
-entry_point: ""
 enabled: true
+entry_point: ""
 parameters:
   kwarg_op:
     immutable: true
   cmd:
-    description: "Command to run"
-    type: string
     immutable: true
+    type: string
+    description: "Command to run"
     default: "cat /etc/ansible/hosts"

@@ -1,6 +1,7 @@
 ---
 name: show_inventory
+pack: st2-ansible-aliases
+description: Show server Ansible inventory (/etc/ansible/hosts)
 action_ref: st2-ansible-aliases.show_inventory
-description: Show server ansible inventory /etc/ansible/hosts
 formats:
   - "show_inventory"

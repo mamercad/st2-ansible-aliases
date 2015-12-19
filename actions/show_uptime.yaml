@@ -1,24 +1,25 @@
 ---
 name: show_uptime
-description: Shows the uptime up host(s)
+pack: st2-ansible-aliases
+description: Shows the uptime up host(s) with Ansible
 runner_type: local-shell-cmd
-entry_point: ""
 enabled: true
+entry_point: ""
 parameters:
-  sudo:
-    description: "Run command with sudo"
-    type: boolean
-    immutable: true
-    default: true
   kwarg_op:
     immutable: true
-  cmd:
-    description: "Command to run"
-    type: string
+  sudo:
     immutable: true
-    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{hosts}} --module-name=command --args='uptime'"
-  hosts:
-    description: "Hosts to operate on"
+    type: boolean
+    description: "Run command with sudo"
+    default: true
+  cmd:
+    immutable: true
     type: string
+    description: "Command to run"
+    default: "/usr/local/bin/ansible {{hosts}} --module-name=command --args='uptime'"
+  hosts:
+    type: string
+    description: "Hosts to operate on"
     required: false
     default: 'all'
