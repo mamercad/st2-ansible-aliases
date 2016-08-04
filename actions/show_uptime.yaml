@@ -17,7 +17,7 @@ parameters:
     immutable: true
     type: string
     description: "Command to run"
-    default: "/usr/local/bin/ansible {{ hosts }} --module-name=command --args='uptime'"
+    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{ hosts }} --module-name=command --args='uptime'"
   hosts:
     type: string
     description: "Hosts to operate on"
