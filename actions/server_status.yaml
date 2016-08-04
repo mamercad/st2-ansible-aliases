@@ -5,18 +5,13 @@ runner_type: local-shell-cmd
 entry_point: ""
 enabled: true
 parameters:
-  sudo:
-    description: "Run command with sudo"
-    type: boolean
-    immutable: true
-    default: true
   kwarg_op:
     immutable: true
   cmd:
     description: "Command to run"
     type: string
     immutable: true
-    default: "ansible {{hosts}} --module-name=ping"
+    default: "ansible {{ hosts }} --module-name=ping"
   hosts:
     description: "Ansible hosts to ping"
     type: string

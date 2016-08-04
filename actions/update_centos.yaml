@@ -16,11 +16,11 @@ parameters:
     description: "Command to run"
     type: string
     immutable: true
-    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{hosts}} --module-name=yum --args='name=* state=latest'"
+    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{ hosts }} --module-name=yum --args='name=* state=latest'"
   timeout:
     description: "Action timeout in seconds"
     type: integer
-    default: 3600    
+    default: 3600
   hosts:
     description: "CentOS hosts to update"
     type: string

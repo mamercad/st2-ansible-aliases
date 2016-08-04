@@ -16,7 +16,7 @@ parameters:
     description: "Command to run"
     type: string
     immutable: true
-    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{hosts}} --module-name=apt --args='update_cache=yes upgrade=full'"
+    default: "/opt/stackstorm/virtualenvs/ansible/bin/ansible {{ hosts }} --module-name=apt --args='update_cache=yes upgrade=full'"
   timeout:
     description: "Action timeout in seconds"
     type: integer
