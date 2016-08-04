@@ -3,8 +3,8 @@ name: update_ubuntu
 pack: st2-ansible-aliases
 description: Updates all installed packages (Ubuntu)
 runner_type: local-shell-cmd
-entry_point: ""
 enabled: true
+entry_point: ""
 parameters:
   sudo:
     description: "Run command with sudo"

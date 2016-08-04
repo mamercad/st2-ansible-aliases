@@ -3,8 +3,8 @@ name: server_status
 pack: st2-ansible-aliases
 description: Show server status by running ansible ping ad-hoc command
 runner_type: local-shell-cmd
-entry_point: ""
 enabled: true
+entry_point: ""
 parameters:
   kwarg_op:
     immutable: true
