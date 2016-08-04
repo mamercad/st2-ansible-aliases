@@ -1,9 +1,1 @@
 ---
-name: st2-ansible-aliases
-description: Ansible aliases for ChatOps
-keywords:
-  - ansible
-  - chatops
-version: 0.1.0
-author: Mark Mercado
-email: mamercad@umflint.edu
