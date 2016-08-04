@@ -1,5 +1,6 @@
 ---
 name: server_status
+pack: st2-ansible-aliases
 action_ref: st2-ansible-aliases.server_status
 description: Show status for hosts (ansible ping module)
 formats:

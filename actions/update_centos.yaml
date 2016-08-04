@@ -1,5 +1,6 @@
 ---
 name: update_centos
+pack: st2-ansible-aliases
 description: Updates all installed packages (CentOS)
 runner_type: local-shell-cmd
 entry_point: ""

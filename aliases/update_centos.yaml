@@ -1,5 +1,6 @@
 ---
 name: update_centos
+pack: st2-ansible-aliases
 action_ref: st2-ansible-aliases.update_centos
 description: Updates all installed packages (CentOS)
 formats:
